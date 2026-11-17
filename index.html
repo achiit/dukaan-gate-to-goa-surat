@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gate to Goa | Flea Bistro & Café, Surat</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--sea:#0b5fb0;--deep:#083f78;--sky:#dff3ff;--aqua:#29b6f0;--amber:#ffb94a;--ink:#0a2540;--card:#ffffff;--bg:#f3faff;--line:#bfe0f5;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#071a2e;--card:#0d2a47;--ink:#e6f4ff;--line:#1c4a75;--sky:#0d2a47}}
+:root[data-theme="dark"]{--bg:#071a2e;--card:#0d2a47;--ink:#e6f4ff;--line:#1c4a75;--sky:#0d2a47}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Open Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:Anton,Impact,"Arial Narrow",sans-serif;font-weight:400;letter-spacing:.02em;line-height:1.05;margin:0}
+a{color:inherit}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:#fff;color:var(--deep);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:56px}
+header b{font-family:Anton,Impact,sans-serif;font-weight:400;font-size:22px;letter-spacing:.03em}
+nav a{margin-left:18px;text-decoration:none;font-weight:600;font-size:14px}
+nav a:hover{color:var(--aqua)}
+.hero{background:linear-gradient(180deg,var(--bg),var(--sky));color:var(--ink);padding:72px 0 0;overflow:hidden}
+.hero h1{font-size:clamp(56px,13vw,132px);color:var(--sea)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .hero h1{color:var(--aqua)}}
+.hero p{max-width:34ch;font-size:19px;margin:18px 0 26px}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;font-weight:700;text-decoration:none;margin:0 10px 10px 0}
+.b1{background:var(--amber);color:#0a2540}.b2{border:2px solid var(--ink);color:var(--ink)}
+.ribbon{background:#bfe9ff;color:#06243f;margin-top:56px;padding:14px 0;font-weight:700}
+.ribbon .wrap{display:flex;flex-wrap:wrap;gap:6px 28px;justify-content:space-between}
+section{padding:64px 0}
+h2{font-size:clamp(36px,6vw,56px);color:var(--sea);margin-bottom:10px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) h2{color:var(--aqua)}}
+.sub{max-width:60ch;margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:0 8px 24px rgba(41,182,240,.12)}
+.card h3{font-size:24px;color:var(--sea);margin-bottom:6px}
+.card .p{font-weight:700;color:var(--sea)}
+.ph{aspect-ratio:4/3;border-radius:8px;background:repeating-linear-gradient(45deg,var(--sky),var(--sky) 12px,var(--bg) 12px,var(--bg) 24px);display:grid;place-items:center;font-size:13px;margin-bottom:12px;border:1px solid var(--line)}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.tabs button{font:700 14px "Open Sans",sans-serif;padding:10px 16px;border-radius:999px;border:2px solid var(--sea);background:transparent;color:var(--sea);cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--sea);color:#fff}
+.tabs button:focus-visible,.btn:focus-visible,a:focus-visible{outline:3px solid var(--amber);outline-offset:2px}
+.menu{columns:2 320px;column-gap:36px}
+.cat{break-inside:avoid;margin-bottom:26px}
+.cat h3{font-size:28px;color:var(--sea);border-bottom:2px solid var(--aqua);padding-bottom:4px;margin-bottom:8px}
+.cat small{display:block;font-size:13px;opacity:.8;margin-bottom:6px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:5px 0;border-bottom:1px dotted var(--line)}
+.row span:last-child{font-weight:700;white-space:nowrap}
+.note{background:var(--amber);color:#0a2540;border-radius:8px;padding:14px 18px;font-weight:600;margin-top:10px}
+footer{background:var(--sky);color:var(--ink);padding:44px 0 28px;border-top:1px solid var(--line)}
+footer h2{color:var(--sea)}
+footer a{color:var(--sea);font-weight:600}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><b>Gate to Goa</b><nav><a href="#fav">Favourites</a><a href="#menu">Menu</a><a href="#visit">Visit</a></nav></div></header>
+
+<div class="hero"><div class="wrap">
+<h1>Gate to<br>Goa</h1>
+<p>Flea bistro and café in Surat. Coffee, shakes, mocktails, pizza, biryani and Goan curries, veg and non-veg.</p>
+<a class="btn b1" href="#menu">See the menu</a><a class="btn b2" href="#visit">Find us</a>
+</div>
+<div class="ribbon"><div class="wrap"><span>Our coffee may cause smiles, long conversations and extra orders.</span></div></div></div>
+
+<section id="fav"><div class="wrap">
+<h2>Must-try favourites</h2>
+<p class="sub">The dishes our regulars keep coming back for.</p>
+<div class="grid">
+<div class="card"><div class="ph"><svg viewBox="0 0 120 90" width="55%" role="img" aria-label="Iced latte"><path d="M38 20h44l-6 60H44z" fill="#fff" stroke="#29b6f0" stroke-width="3"/><path d="M41 42h38l-3 38H44z" fill="#c8895a"/><path d="M40 30h40l-1 12H41z" fill="#f5e6d3"/><path d="M70 8l-6 40" stroke="#0b5fb0" stroke-width="4" stroke-linecap="round"/></svg></div><h3>Spanish Latte</h3><p>Sweet, creamy and strong.</p><span class="p">₹245</span></div>
+<div class="card"><div class="ph"><svg viewBox="0 0 120 90" width="55%" role="img" aria-label="Shake"><path d="M36 28h48l-6 52H42z" fill="#f3d9c4" stroke="#29b6f0" stroke-width="3"/><circle cx="60" cy="24" r="14" fill="#fff" stroke="#29b6f0" stroke-width="3"/><circle cx="60" cy="14" r="5" fill="#8b4a2b"/><path d="M42 46h36" stroke="#8b4a2b" stroke-width="4"/></svg></div><h3>Biscoff Shake</h3><p>Thick, caffeine-free, cookie-butter rich.</p><span class="p">₹265</span></div>
+<div class="card"><div class="ph"><svg viewBox="0 0 120 90" width="55%" role="img" aria-label="Biryani pot"><path d="M30 44h60c0 24-12 38-30 38S30 68 30 44z" fill="#c9733a"/><rect x="26" y="38" width="68" height="8" rx="4" fill="#a85a26"/><path d="M48 30c-6-8 6-10 0-18M66 30c-6-8 6-10 0-18" stroke="#29b6f0" stroke-width="3" fill="none" stroke-linecap="round"/></svg></div><h3>Matka Chicken Tikka Biryani</h3><p>Slow-cooked in a clay pot.</p><span class="p">₹495</span></div>
+<div class="card"><div class="ph"><svg viewBox="0 0 120 90" width="55%" role="img" aria-label="Pizza slice"><path d="M60 82L24 20q36-14 72 0z" fill="#ffc86b"/><path d="M24 20q36-14 72 0" stroke="#d98a2b" stroke-width="8" fill="none" stroke-linecap="round"/><circle cx="52" cy="38" r="6" fill="#d94b3a"/><circle cx="70" cy="46" r="6" fill="#d94b3a"/><circle cx="60" cy="62" r="5" fill="#d94b3a"/></svg></div><h3>Tikkawala Paneer Pizza</h3><p>Smoky paneer tikka on a hot crust.</p><span class="p">₹455</span></div>
+</div></div></section>
+
+<section id="menu" style="background:var(--sky)"><div class="wrap">
+<h2>Menu</h2>
+<p class="sub">Prices in ₹. Want it customized? Just ask the crew. If you are on a diet, ask for diet preparation.</p>
+<div class="tabs" role="tablist" id="tabs"></div>
+<div class="menu" id="list" role="tabpanel"></div>
+</div></section>
+
+<footer id="visit"><div class="wrap">
+<h2>Visit us</h2>
+<p>Gate to Goa, Surat<br>Call: <a href="tel:+919909090928">99-09-09-09-28</a> / <a href="tel:+919909090938">38</a><br>Instagram: <a href="https://instagram.com/gate_to_goa_surat" rel="noopener">@gate_to_goa_surat</a></p>
+<a class="btn b1" href="https://wa.me/919909090928">Order on WhatsApp</a>
+<p style="opacity:.7;font-size:13px">© Gate to Goa. Add your full address and opening hours here.</p>
+</div></footer>
+
+<script>
+var M={
+"Coffee & Drinks":[
+["Hot classics (with milk)","Add-on flavours ₹55: hazelnut, caramel, vanilla, Irish",[["Mocha",215],["Mocha Delight",235],["Latte",175],["Spanish Latte",245],["Cappuccino",185],["Flat White",215],["Cortado",175],["Bombon",195]]],
+["Hot classics (without milk)","",[["Espresso",125],["Americano",145],["Long Black",175]]],
+["Iced coffees (with milk)","",[["Iced Mocha",215],["Iced Latte",215],["Iced Spanish Latte",245],["Iced Caramel Coffee",215],["Iced Bombon",225],["Vietnamese Coffee",245],["Cold Coffee",195]]],
+["Iced coffees (without milk)","",[["Iced Espresso",175],["Red Bull Espresso",295],["Espresso Tonic / Ginger Ale",245],["Cold Brew Tonic / Ginger Ale",265],["Iced Americano",185],["Iced Long Black",195],["Cold Brew",185]]],
+["GTG specials","",[["Nutty Oreo Dream (Affogato)",325],["GTG Special Cold Brew",295],["Wild Berries Kick",295],["Cold Brew Lemonade",295],["Tiramisu Delight",315],["Coconut Cold Brew",305],["Berry Rush",285],["Mixed Berry Smoothie Bowl",595]]],
+["Frappe","",[["Classic Cold Coffee",270],["Mocha Frappe",275],["Nutella Frappe",275],["Hazelnut Frappe",300],["Caramel & Cookie Frappe",255],["Sea Salt Caramel Frappe",295],["Irish Frappe",295]]],
+["Manual brew","",[["Iced / Hot Pour Over",230],["Aeropress",230],["French Press",230]]],
+["Tea","",[["Green Tea",145],["Masala Tea Kettle (serves 2-3)",165],["Flavoured Green Tea",175],["Lemon Lime Mint Iced Tea",195],["Peach Iced Tea",195],["Mixed Berries Iced Tea",225],["Raspberry Iced Tea",225]]],
+["Hot chocolate","",[["Hot Chocolate",175],["Hot Caddy Chocolate",175],["Hot Nutella Chocolate",215],["Nukkad Coffee Kettle (serves 2-3)",165]]],
+["Matcha","Almond or oat milk +₹95",[["Hot Matcha",335],["Matcha Iced Latte",345],["Matcha Vanilla Latte",365],["Strawberry Matcha",395],["Mango Matcha",395],["Blueberry Matcha",395]]],
+["Shakes (no caffeine)","",[["Oreo Cookie",265],["Oreo Strawberry",265],["Cold Caddy Chocolate",235],["Biscoff Shake",265],["Brownie Buzz",265],["Goan Nuts",275],["Nutella Almond Chocolate",295]]],
+["Mocktails (no caffeine)","Mojito flavours +₹55: orange, strawberry, coconut, pineapple, raspberry",[["Real Berries Mojito",265],["Black Souk",175],["Sangria Boost",265],["Red Lips",255],["Blue Lagoon",175],["Red Bull Mojito",295],["Virgin Mojito",185]]],
+["Smoothies & juice","Smoothies are real-fruit immunity boosters",[["Beauty Raiser",295],["Fruit Knock",265],["Wild Berries",295],["Pina on Berries",295],["Tropical Jamun",295],["Orange Juice",245],["Pineapple Juice",175],["Watermelon Juice",155]]],
+["Desserts","",[["Brownie with Vanilla Ice Cream",215],["Sizzling Brownie",255],["Choco Lanche",295],["Fruit Bowl",345]]],
+["Soft drinks","",[["Home Made Lemonade",115],["Fresh Lime Soda / Water",115],["Red Bull",225],["Tonic Water",225]]]],
+"Veg":[
+["Small bites","",[["Classic French Fries",95],["Peri Peri Fries",165],["Classic Bruschetta",245],["Nachos Platter",335],["Gangsta Loaded Nachos",335]]],
+["Sandwiches & garlic bread","Add veggies or extra cheese +₹55",[["Corn Cheese Chilly Sandwich",245],["Veg Grill Cheese Sandwich",245],["Paneer Tikka Grill Cheese",285],["Cheese Garlic Bread",225],["Corn Jalapeno Cheese Chilly",245],["Hand Stretched Cheese Garlic Bread",245],["Paneer Tikka Flat Bread",315]]],
+["Pasta","",[["Arrabita (red sauce)",315],["Alfredo (white sauce)",335],["Red & White (mix sauce)",395]]],
+["Pizza","Cheese burst +₹165",[["Margherita",395],["Chilly Scream",425],["Tikkawala Paneer",455],["Farmers Farm",455]]],
+["Deadly appetizers","Veg / Paneer",[["Manchurian",'275 / 285'],["Crispy Punch",'245 / 285'],["Schezwan Hero",'245 / 285'],["Chillly Style",'245 / 285'],["Garlic BBQ",'245 / 285'],["Kung Pao Style",'245 / 285'],["Orange Dry",'315 / 355'],["Mushroom Chilly Dry",285]]],
+["Rice, noodles & bowl","Veg / Paneer",[["Fried Rice / Hakka Noodles",'275 / 325'],["Schezwan Rice / Noodles",'275 / 325'],["Burnt Garlic Rice / Noodles",'275 / 325'],["Pot Rice",'355 / 455'],["Hakka Wakka Bowl",'295 / 365']]],
+["Indian tikkas","",[["TPT (The Paneer Tikka)",275],["Achari Paneer Tikka",295],["Malai Broccoli / Paneer Tikka",295],["Dahi Garlic Paneer Tikka",295],["Chenab Paneer Tikka",345],["Pahadi Paneer Tikka",325],["Tandoori Soya Chaap",275],["Mushroom Tikka",295]]],
+["Indian gravies","",[["Dhabewali Dal Fry",215],["Dal Tadkewali",235],["Veg Tawa Masala",265],["Veg Kadai",285],["Paneer Tikka Lababdar",335],["Paneer Kadhai",335],["Paneer Butter Masala",355],["Paneer Handi",355],["Paneer Changezi",425],["Paneer Laziz Matka",495],["Kaju Masala",365],["Soya Chaap Masala",375]]],
+["Breads, rice & biryani","",[["Tandoori Roti",45],["Naan",85],["Cheese / Garlic Naan",125],["Steam / Jeera Rice",135],["Veg Biryani Pulao",315],["Veg Matka Biryani",425],["Paneer Matka Biryani",495],["Paneer Bamboo Biryani",495]]]],
+"Non-veg":[
+["Small bites & breads","Add chicken +₹125",[["Chicken Corn Cheese Chilly Sandwich",265],["Chicken Grill Cheese Sandwich",295],["Chicken Tikka Flat Bread",315],["Pasta, red / white / mix",'315 / 335 / 395']]],
+["Pizza","Chicken burst +₹165, chicken cheese burst +₹230",[["Margherita",395],["Chilly Scream",425],["Tikkawala Paneer",455],["Farmers Farm",455]]],
+["Deadly appetizers","Chicken / Fish / Prawns",[["Lemon Chilly",'335 / 385 / 455'],["Crispy Punch",'335 / 385 / 455'],["Schezwan Hero",'335 / 385 / 455'],["Garlic BBQ",'335 / 385 / 455'],["Kung Pao Style",'335 / 385 / 455'],["Orange Dry",495],["Schezwan Chicken Lollipop",455],["Chicken Cheese Pop",455]]],
+["Rice & noodles","Egg / Chicken / Fish / Prawns",[["Fried Rice / Hakka Noodles",'295 / 335 / 385 / 425'],["Schezwan Rice / Noodles",'295 / 335 / 385 / 425'],["Burnt Garlic Rice / Noodles",'295 / 335 / 385 / 425'],["Chicken Pot Rice",'455 / 495 / 545 / 585'],["Hakka Wakka Bowl Rice",'335 / 375 / 415 / 465']]],
+["Tikkas (kebabs)","",[["TCT (The Chicken Tikka)",365],["Chicken Dahi Garlic Kebab",375],["CCT (Chenab Creamy Tikka)",425],["Chicken Aachari Tikka",395],["Chicken Angara Tikka",395],["Chicken Pahadi Tikka",495],["Fish Tikka",425],["Tandoori Prawns",495]]],
+["Mughlai gravies & Goan curries","",[["Bombay Chicken Tikka Masala",425],["Yah! #BC (Butter Chicken)",455],["Lahori Chicken Korma",395],["Chicken Changezi",495],["Awadhi Matka Chicken",525],["Chicken Vinadaloo",495],["Goan Chicken Coconut Curry",495],["Fish Goan Curry Masala",425],["Prawns Tawa Masala",495],["Chicken Rogan Josh",455],["Chicken Kadhai",455],["Mutton Korma",595],["Mutton Ghee Roast",595]]],
+["Biryanis","Boneless chicken +₹75",[["Chicken Dum Tikka Pulao",375],["#GTG Chicken Biryani",425],["Matka Chicken Tikka Biryani",495],["Matka Mutton Biryani",595],["Bamboo Chicken Biryani",545],["Prawns Biryani",455]]]]};
+var tabs=document.getElementById("tabs"),list=document.getElementById("list");
+function show(k){
+ Array.prototype.forEach.call(tabs.children,function(b){b.setAttribute("aria-selected",b.textContent===k)});
+ list.innerHTML=M[k].map(function(c){
+  return '<div class="cat"><h3>'+c[0]+'</h3>'+(c[1]?'<small>'+c[1]+'</small>':'')+c[2].map(function(i){return '<div class="row"><span>'+i[0]+'</span><span>'+i[1]+'</span></div>'}).join('')+'</div>'}).join('');
+}
+Object.keys(M).forEach(function(k){var b=document.createElement("button");b.setAttribute("role","tab");b.textContent=k;b.onclick=function(){show(k)};tabs.appendChild(b)});
+show("Coffee & Drinks");
+</script>
+</body>
+</html>
